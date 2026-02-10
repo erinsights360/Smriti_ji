@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Smriti 💕</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Pacifico&display=swap"
+        rel="stylesheet">
+</head>
+
+<body onload="document.getElementById('bgMusic').play().catch(() => console.log('Autoplay blocked'))">
+
+    <div class="bg-hearts" id="heartsContainer"></div>
+
+    <div class="container">
+        <div class="card" id="mainCard">
+
+            <div id="initialContent">
+                <h1 class="title">Hey Smriti! 💖</h1>
+                <p class="subtitle">There's something I need to ask you...</p>
+
+                <div class="image-area">
+                    <img src="image/cute-couple.png" alt="Cute Couple" class="main-img" id="mainImg">
+                </div>
+
+                <h2 class="question">Will you be my Valentine? 🌹</h2>
+
+                <div class="buttons">
+                    <button class="btn btn-yes" id="yesBtn">YES! 😍</button>
+                    <button class="btn btn-no" id="noBtn">No 😢</button>
+                </div>
+            </div>
+
+            <!-- Success Message -->
+            <div id="successMessage" class="hidden">
+                <h1 class="success-title">Hey Girl...</h1>
+                <div class="poem-container">
+                    <p class="success-text">
+                        You are my sunshine ☀️<br>
+                        A quiet light that lives in my smriti, 💭<br>
+                        warming my mind 🌸<br>
+                        even when you are far from my world. ✨<br><br>
+                        I always remember you… 🌙<br><br>
+
+                        I don't know whether you love me or not, ❓<br>
+                        but you are my crush — 💖<br>
+                        soft, silent, unknowingly powerful. 👉👈🥺<br><br>
+
+                        You don't know me, 🙈<br>
+                        yet somehow, 🌟<br>
+                        you live in my days and my pauses. ⏸️<br><br>
+
+                        When I see you smiling, 😊<br>
+                        my heart feels lighter — 💫<br>
+                        I become happy just to see you happy. 🌈<br><br>
+
+                        Maybe you are with me 🌌<br>
+                        in some parallel universe, 🪐<br>
+                        where courage is easy 💪<br>
+                        and love is answered. 💕<br><br>
+
+                        Here, you live in my imagination — 💭<br>
+                        and I tell myself 🗣️<br>
+                        that loving you quietly 🤫<br>
+                        is still a kind of happiness. 😌<br><br>
+
+                        I am okay keeping you in my thoughts, 💬<br>
+                        but a part of me 🧩<br>
+                        wants to keep you in reality, 🌍<br>
+                        right beside me. 🤝<br><br>
+
+                        I don't know 🤷‍♂️<br>
+                        if that is ever possible or not. ❔<br><br>
+
+                        You don't reply. 📵<br>
+                        You don't look back. 👀<br>
+                        Still… 🌠<br>
+                        I am happy just seeing you exist. 🌻<br><br>
+
+                        You are not mine, 💔<br>
+                        yet you are my Valentine. 💝<br><br>
+
+                        Best of luck, 🍀<br>
+                        and lots of love — 💗<br>
+                        from a heart that chose you 💘<br>
+                        even in silence. 💌
+                    </p>
+                </div>
+                <!-- Happy Valentine - Transparent Background -->
+                <img src="image/happy-valentine-v2.png" alt="Happy Valentine" class="success-img-mid"
+                    style="max-width: 200px; margin-top: 20px; animation: bounce 2s infinite;">
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Music Player with Autoplay -->
+    <audio id="bgMusic" loop autoplay>
+        <source src="music/tum_hi_ho.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="bgMusic2" loop>
+        <source src="music/jeene_laga_hoon.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="emoji-rain" id="emojiRain"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
